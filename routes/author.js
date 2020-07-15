@@ -9,7 +9,7 @@ router.get('/', (req,res) => {
 
 //New Authoer Router
 router.get('/new',(req,res) =>{
-    res.render('/author/new')
+    res.render('author/new')
 })
 
 //create Author Route
